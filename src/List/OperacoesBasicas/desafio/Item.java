@@ -1,4 +1,4 @@
-package List.operacoesBasicas.desafio;
+package List.OperacoesBasicas.desafio;
 
 public class Item {
     private String nome;

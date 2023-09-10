@@ -1,13 +1,14 @@
 # Curso Conhecendo Collections Java
 
 
-## 🛒 Desafio Operações Básicas com List
+## 🛒 Desafio -> Operações Básicas com List
 
 ⭐ Carrinho de Compras: 
 
 ➡️ Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. <br>
 ➡️ O carrinho deve ser implementado como uma lista de itens. <br>
-➡️ Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade. Implemente os seguintes métodos:
+➡️ Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade.<br>
+➡️ Implemente os seguintes métodos:
 
 
 * `adicionarItem(String nome, double preco, int quantidade)`: Adiciona um item ao carrinho com o nome, preço e quantidade especificados.
