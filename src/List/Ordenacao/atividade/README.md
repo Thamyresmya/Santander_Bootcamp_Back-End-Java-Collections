@@ -1,18 +1,16 @@
 # Curso Conhecendo Collections Java
 
 
-## ✨ Atividade -> Operações Básicas com List
+## ✨ Atividade -> Ordenação em List
 
-⭐ Lista de Tarefas: 
+⭐ Ordenação de Pessoas: 
 
-➡️ Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. <br>
-➡️ Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. <br>
-➡️ Implemente os seguintes métodos:
+➡️ Crie uma classe chamada "OrdenacaoPessoas" que possui uma lista de objetos do tipo "Pessoa" como atributo. <br>
+➡️ Cada pessoa possui atributos como nome, idade e altura. Implemente os seguintes métodos:
 
-* `adicionarTarefa(String descricao)`: Adiciona uma nova tarefa à lista com a descrição fornecida.
-* `removerTarefa(String descricao)`: Remove uma tarefa da lista com base em sua descrição.
-* `obterNumeroTotalTarefas()`: Retorna o número total de tarefas na lista.
-* `obterDescricoesTarefas()`: Retorna uma lista contendo a descrição de todas as tarefas na lista.
+* `adicionarPessoa(String nome, int idade, double altura)`: Adiciona uma pessoa à lista.
+* `ordenarPorIdade()`: Ordena as pessoas da lista por idade usando a interface Comparable.
+* `ordenarPorAltura()`: Ordena as pessoas da lista por altura usando um Comparator personalizado.
 
 
 

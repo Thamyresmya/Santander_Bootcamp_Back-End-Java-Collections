@@ -1,20 +1,17 @@
 # Curso Conhecendo Collections Java
 
 
-## 🛒 Desafio -> Operações Básicas com List
+## 🛒 Desafio -> Ordenação em List
 
-⭐ Carrinho de Compras: 
+⭐ Ordenação de Números: 
 
-➡️ Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. <br>
-➡️ O carrinho deve ser implementado como uma lista de itens. <br>
-➡️ Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade.<br>
+➡️ Crie uma classe chamada "OrdenacaoNumeros" que possui uma lista de números inteiros como atributo. <br>
 ➡️ Implemente os seguintes métodos:
 
 
-* `adicionarItem(String nome, double preco, int quantidade)`: Adiciona um item ao carrinho com o nome, preço e quantidade especificados.
-* `removerItem(String nome)`: Remove um item do carrinho com base no seu nome.
-* `calcularValorTotal()`: Calcula e retorna o valor total do carrinho, levando em consideração o preço e a quantidade de cada item.
-* `exibirItens()`: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.
+* `adicionarNumero(int numero)`: Adiciona um número à lista.
+* `ordenarAscendente()`: Ordena os números da lista em ordem ascendente usando a interface Comparable e a class Collections.
+* `ordenarDescendente()`: Ordena os números da lista em ordem descendente usando um Comparable e a class Collections.
 
 
 <br><br>
