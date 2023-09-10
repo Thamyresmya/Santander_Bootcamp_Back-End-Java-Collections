@@ -39,15 +39,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 2 - Pesquisas com List <br>
 3 - Ordenação com List <br>
 
-* SET:<br>
-1 -  <br>
-2 -  <br>
-3 -  <br>
+* SET INTERFACE:<br>
+1 - Operações Básicas com Set <br>
+2 - Pesquisas com Set <br>
+3 - Ordenação com Set <br>
 
-* MAP:<br>
-1 -  <br>
-2 -  <br>
-3 -  <br>
+* MAP INTERFACE:<br>
+1 - Operações Básicas com MAP <br>
+2 - Pesquisas com MAP <br>
+3 - Ordenação com MAP <br>
 
 ## 📁 Acesso ao projeto
 
