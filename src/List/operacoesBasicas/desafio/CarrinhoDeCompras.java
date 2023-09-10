@@ -35,23 +35,24 @@ public class CarrinhoDeCompras {
     //Calcula e retorna o valor total do carrinho
     public double calcularValorTotal() {
         double valorTotal = 0d;
-        if (!listaDeCompras.isEmpty()) {
-            for (Item item : listaDeCompras) {
-                double valorItem = item.getPreco() * item.getQuantidade();
-                valorTotal += valorItem;                 //valorTotal = valorTotal + valorItem;
+
+        if (!listaDeCompras.isEmpty()) {             //verifica se a lista de itens está vazia
+            for (Item item : listaDeCompras) {       //percorre tds itens da lista de itens
+                double valorItem = item.getPreco() * item.getQuantidade();              //valoritem recebe a multiplicação de preco por quant
+                valorTotal += valorItem;                 //valorTotal recebe o valorTotal + valorItem;
             }
-            return valorTotal;
+            return valorTotal;                        //retorna o valor total
         } else {
-            throw new RuntimeException("A lista está vazia!");
+            throw new RuntimeException("A lista está vazia!");    // se estiver vazia mostra msg
         }
     }
 
     //Exibe todos os itens presentes no carrinho
     public void exibirItens(){
-        if (!listaDeCompras.isEmpty()){
-            System.out.println(listaDeCompras);
+        if (!listaDeCompras.isEmpty()){           //verifica se a lista de itens está vazia
+            System.out.println(listaDeCompras);   //printa a lista de itens
         } else {
-            System.out.println("Lista de compras está vazia!");
+            System.out.println("Lista de compras está vazia!");   // se lista de itens estiver vazia mostra msg
         }
     }
 
