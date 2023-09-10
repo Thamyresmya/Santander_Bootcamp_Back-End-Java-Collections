@@ -2,7 +2,7 @@
 | Desafio | BOOTCAMP SANTANDER 2023 - DIO  |
 | -------------  |--------------------------------|
 | Nome        | **Conhecendo Collections Java**  
-| Tecnologias | Java, Intellij                 
+| Tecnologias | Java, Collections, Intellij                 
 | URL         | https://github.com/Thamyresmya/Santander_Bootcamp_Back-End-Java-Collections
 
 
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 
 
-## 💻 Desafio
+## ⭐ Atividade
 Operações Básicas com List
 
 1 - Lista de Tarefas<br>
@@ -43,6 +43,8 @@ Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atri
 * `obterNumeroTotalTarefas()`: Retorna o número total de tarefas na lista.
 * `obterDescricoesTarefas()`: Retorna uma lista contendo a descrição de todas as tarefas na lista.
 
+
+## 💻 Desafio
 2 - Carrinho de Compras: <br>
 Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade. Implemente os seguintes métodos:
 
@@ -50,7 +52,6 @@ Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compra
 * `removerItem(String nome)`: Remove um item do carrinho com base no seu nome.
 * `calcularValorTotal()`: Calcula e retorna o valor total do carrinho, levando em consideração o preço e a quantidade de cada item.
 * `exibirItens()`: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.
-
 
 
 ## 📁 Acesso ao projeto

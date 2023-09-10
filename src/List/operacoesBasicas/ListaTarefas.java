@@ -1,7 +1,8 @@
-
+package List.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class ListaTarefas {
     //atributo
     private List<Tarefa> tarefaList;
