@@ -16,8 +16,8 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#-gif">Gif</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-conteudo">Conteúdo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#-tecnica">Técnicas</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -34,18 +34,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Conteúdo
 
-
+* LIST:<br>
 1 - Operações Básicas com List <br>
 2 - Pesquisas com List <br>
 3 - Ordenação com List <br>
 
+* SET:<br>
+1 -  <br>
+2 -  <br>
+3 -  <br>
+
+* MAP:<br>
+1 -  <br>
+2 -  <br>
+3 -  <br>
 
 ## 📁 Acesso ao projeto
 
-É possível acessar o código através do [Link](https://github.com/Thamyresmya/Santander_Bootcamp_Back-End-Java-Collections)
+É possível acessar o código através deste [Link](https://github.com/Thamyresmya/Santander_Bootcamp_Back-End-Java-Collections).
 
 Neste repositório você tem acesso a todo o material desenvolvido.
 
+<br>
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -53,17 +63,8 @@ Neste repositório você tem acesso a todo o material desenvolvido.
 
 <br>
 
-## 📸 Gif
 
-Código <br>
-<img width="100%" height="390" src="./geral"></img>
-
-Projeto funcionando<br>
-<img width="100%" height="450" src="./geral"></img>
-
-<br>
-
-Me siga nas redes sociais:
+## 🔗 Me siga nas redes sociais:
 - [Linkedin](https://www.linkedin.com/in/thamyrescavalcante/)
 - [Instagran](https://www.instagram.com/thamyres__cavalcante/)
 
@@ -71,4 +72,4 @@ Me siga nas redes sociais:
 
 ---
 
-Feito com 💜 by Thamyres Cavalcante.
+### Feito com 💜 by Thamyres Cavalcante.
