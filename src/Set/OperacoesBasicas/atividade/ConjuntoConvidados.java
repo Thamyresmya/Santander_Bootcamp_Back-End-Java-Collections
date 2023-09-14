@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class ConjuntoConvidados {
 
+    //CONJUNTO DE CONVIDADOS
     private Set<Convidado> convidadoSet;
 
     //Construtor

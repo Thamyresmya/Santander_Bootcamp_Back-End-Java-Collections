@@ -1,5 +1,7 @@
 package Set.OperacoesBasicas.atividade;
 
+import java.util.Objects;
+
 public class Convidado {
 
     //Atributos
@@ -20,6 +22,20 @@ public class Convidado {
 
     public int getCodigoConvite() {
         return codigoConvite;
+    }
+
+
+    //PARA CONFERIR O CODIGO DO CONVITE PARA NÃO REPETIR
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Convidado convidado)) return false;
+        return getCodigoConvite() == convidado.getCodigoConvite();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getCodigoConvite());
     }
 
     //toString
