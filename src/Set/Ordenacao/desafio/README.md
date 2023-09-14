@@ -1,18 +1,20 @@
 # Curso Conhecendo Collections Java
 
 
-## 🛒 Desafio -> Operações Básicas com Set
+## 🛒 Desafio -> Ordenação em Set
 
-⭐ Conjunto de Palavras Únicas: 
+⭐ Lista de Alunos: 
 
-➡️ Crie uma classe chamada "ConjuntoPalavrasUnicas" que possui um conjunto de palavras únicas como atributo.<br>
+➡️ Crie uma classe chamada "GerenciadorAlunos" que irá lidar com uma lista de alunos.<br>
+➡️ Cada aluno terá atributos como nome, matrícula e nota. <br>
 ➡️ Implemente os seguintes métodos:
 
 
-* `adicionarPalavra(String palavra)`: Adiciona uma palavra ao conjunto.
-* `removerPalavra(String palavra)`: Remove uma palavra do conjunto.
-* `verificarPalavra(String palavra)`: Verifica se uma palavra está presente no conjunto.
-* `exibirPalavrasUnicas()`: Exibe todas as palavras únicas do conjunto.
+* `adicionarAluno(String nome, Long matricula, double media)`: Adiciona um aluno ao conjunto.
+* `removerAluno(long matricula)`: Remove um aluno ao conjunto a partir da matricula, se estiver presente.
+* `exibirAlunosPorNome()`: Exibe todos os alunos do conjunto em ordem alfabética pelo nome.
+* `exibirAlunosPorNota()`: Exibe todos os alunos do conjunto em ordem crescente de nota.
+* `exibirAlunos()`: Exibe todos os alunos do conjunto.
 
 
 <br><br>

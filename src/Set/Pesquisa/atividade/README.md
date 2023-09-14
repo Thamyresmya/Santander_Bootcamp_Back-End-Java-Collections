@@ -1,17 +1,18 @@
 # Curso Conhecendo Collections Java
 
 
-## ✨ Atividade -> Operações Básicas com Set
+## ✨ Atividade -> Pesquisa em Set
 
-⭐ Conjunto de Convidados: 
+⭐ Agenda de Contatos: 
 
-➡️ Crie uma classe chamada "ConjuntoConvidados" que possui um conjunto de objetos do tipo "Convidado" como atributo. <br>
-➡️ Cada convidado possui atributos como nome e código do convite. Implemente os seguintes métodos:
+➡️ Crie uma classe chamada "AgendaContatos" que possui um conjunto de objetos do tipo "Contato" como atributo. <br>
+➡️ Cada contato possui atributos como nome e número de telefone.
+➡️ Implemente os seguintes métodos:
 
-* `adicionarConvidado(String nome, int codigoConvite)`: Adiciona um convidado ao conjunto.
-* `removerConvidadoPorCodigoConvite(int codigoConvite)`: Remove um convidado do conjunto com base no código do convite.
-* `contarConvidados()`: Conta o número total de convidados no Set.
-* `exibirConvidados()`: Exibe todos os convidados do conjunto.
+* `adicionarContato(String nome, int numero)`: Adiciona um contato à agenda.
+* `exibirContatos()`: Exibe todos os contatos da agenda.
+* `pesquisarPorNome(String nome)`: Pesquisa contatos pelo nome e retorna uma conjunto com os contatos encontrados.
+* `atualizarNumeroContato(String nome, int novoNumero)`: Atualiza o número de telefone de um contato específico.
 
 
 <br><br>

@@ -1,17 +1,17 @@
 # Curso Conhecendo Collections Java
 
 
-## ✨ Atividade -> Operações Básicas com Set
+## ✨ Atividade -> Ordenação em Set
 
-⭐ Conjunto de Convidados: 
+⭐ Cadastro de Produtos: 
 
-➡️ Crie uma classe chamada "ConjuntoConvidados" que possui um conjunto de objetos do tipo "Convidado" como atributo. <br>
-➡️ Cada convidado possui atributos como nome e código do convite. Implemente os seguintes métodos:
+➡️ Crie uma classe chamada "CadastroProdutos" que possui um conjunto de objetos do tipo "Produto" como atributo. <br>
+➡️ Cada produto possui atributos como nome, cod, preço e quantidade. <br>
+➡️ Implemente os seguintes métodos:
 
-* `adicionarConvidado(String nome, int codigoConvite)`: Adiciona um convidado ao conjunto.
-* `removerConvidadoPorCodigoConvite(int codigoConvite)`: Remove um convidado do conjunto com base no código do convite.
-* `contarConvidados()`: Conta o número total de convidados no Set.
-* `exibirConvidados()`: Exibe todos os convidados do conjunto.
+* `adicionarProduto(long cod, String nome, double preco, int quantidade)`: Adiciona um produto ao cadastro.
+* `exibirProdutosPorNome()`: Exibe todos os produtos do cadastro em ordem alfabética pelo nome.
+* `exibirProdutosPorPreco()`: Exibe todos os produtos do cadastro em ordem crescente de preço.
 
 
 <br><br>
