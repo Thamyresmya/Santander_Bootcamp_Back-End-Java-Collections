@@ -61,6 +61,9 @@ Neste repositório você tem acesso a todo o material desenvolvido.
 
 - `JAVA`:  A linguagem de programação Java é objetivada principalmente na orientação a objeto, independência de plataforma, recursos de rede, carga dinâmica de código e segurança, além disso, é uma linguagem copilada.
 
+- `Collection Framework`: Qualquer grupo de objetos individuais representados como uma única unidade é conhecido como coleção de objetos. Em Java, uma estrutura separada chamada “Collection Framework” foi definida no JDK 1.2, que contém todas as classes de coleção e interface nela. Em Java, a interface Collection ( java.util.Collection ) e a interface Map ( java.util.Map ) são as duas principais interfaces “raiz” das classes de coleção Java.
+
+
 <br>
 
 
