@@ -1,17 +1,18 @@
 # Curso Conhecendo Collections Java
 
 
-## ✨ Atividade -> Operações Básicas com Set
+## ✨ Atividade -> Operações Básicas com MAP
 
-⭐ Conjunto de Convidados: 
+⭐ Agenda de Contatos: 
 
-➡️ Crie uma classe chamada "ConjuntoConvidados" que possui um conjunto de objetos do tipo "Convidado" como atributo. <br>
-➡️ Cada convidado possui atributos como nome e código do convite. Implemente os seguintes métodos:
+➡️ Crie uma classe chamada "AgendaContatos" que utilize um Map para armazenar os contatos. <br>
+➡️ Cada contato possui um nome como chave e um número de telefone como valor. <br>
+➡️ Implemente os seguintes métodos:
 
-* `adicionarConvidado(String nome, int codigoConvite)`: Adiciona um convidado ao conjunto.
-* `removerConvidadoPorCodigoConvite(int codigoConvite)`: Remove um convidado do conjunto com base no código do convite.
-* `contarConvidados()`: Conta o número total de convidados no Set.
-* `exibirConvidados()`: Exibe todos os convidados do conjunto.
+* `adicionarContato(String nome, Integer telefone)`: Adiciona um contato à agenda, associando o nome do contato ao número de telefone correspondente.
+* `removerContato(String nome)`: Remove um contato da agenda, dado o nome do contato.
+* `exibirContatos()`: Exibe todos os contatos da agenda, mostrando o nome e o número de telefone de cada contato.
+* `pesquisarPorNome(String nome)`: Pesquisa um contato pelo nome e retorna o número de telefone correspondente.
 
 
 <br><br>

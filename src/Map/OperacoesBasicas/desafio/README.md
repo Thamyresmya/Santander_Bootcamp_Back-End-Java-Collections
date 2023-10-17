@@ -1,18 +1,17 @@
 # Curso Conhecendo Collections Java
 
 
-## 🛒 Desafio -> Operações Básicas com Set
+## 🛒 Desafio -> Operações Básicas com MAP
 
-⭐ Conjunto de Palavras Únicas: 
+⭐ Dicionário: 
 
-➡️ Crie uma classe chamada "ConjuntoPalavrasUnicas" que possui um conjunto de palavras únicas como atributo.<br>
+➡️ Crie uma classe chamada "Dicionario" que utilize um Map para armazenar palavras e suas respectivas definições.<br>
 ➡️ Implemente os seguintes métodos:
 
-
-* `adicionarPalavra(String palavra)`: Adiciona uma palavra ao conjunto.
-* `removerPalavra(String palavra)`: Remove uma palavra do conjunto.
-* `verificarPalavra(String palavra)`: Verifica se uma palavra está presente no conjunto.
-* `exibirPalavrasUnicas()`: Exibe todas as palavras únicas do conjunto.
+* `adicionarPalavra(String palavra, String definicao)`: Adiciona uma palavra e sua definição ao dicionário, associando a palavra à sua definição correspondente.
+* `removerPalavra(String palavra)`: Remove uma palavra do dicionário, dado o termo a ser removido.
+* `exibirPalavras()`: Exibe todas as palavras e suas definições do dicionário, mostrando cada palavra seguida de sua respectiva definição.
+* `pesquisarPorPalavra(String palavra)`: Pesquisa uma palavra no dicionário e retorna sua definição correspondente.
 
 
 <br><br>
