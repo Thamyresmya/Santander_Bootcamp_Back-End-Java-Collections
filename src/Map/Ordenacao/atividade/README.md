@@ -1,17 +1,17 @@
 # Curso Conhecendo Collections Java
 
 
-## ✨ Atividade -> Operações Básicas com Set
+## ✨ Atividade -> Ordenação nos Map
 
-⭐ Conjunto de Convidados: 
+⭐ Agenda de Eventos:
 
-➡️ Crie uma classe chamada "ConjuntoConvidados" que possui um conjunto de objetos do tipo "Convidado" como atributo. <br>
-➡️ Cada convidado possui atributos como nome e código do convite. Implemente os seguintes métodos:
+➡️ Crie uma classe chamada "AgendaEventos" que utilize um `Map` para armazenar as datas e seus respectivos Eventos. <br>
+➡️ Cada evento é representado por um objeto da classe "Evento", que possui atributos como nome do evento e o nome da atração. <br>
+➡️ Implemente os seguintes métodos:
 
-* `adicionarConvidado(String nome, int codigoConvite)`: Adiciona um convidado ao conjunto.
-* `removerConvidadoPorCodigoConvite(int codigoConvite)`: Remove um convidado do conjunto com base no código do convite.
-* `contarConvidados()`: Conta o número total de convidados no Set.
-* `exibirConvidados()`: Exibe todos os convidados do conjunto.
+* `adicionarEvento(LocalDate data, String nome, String atracao)`: Adiciona um evento à agenda.
+* `exibirAgenda()`: Exibe a agenda de eventos em ordem crescente de data.
+* `obterProximoEvento()`: Retorna o próximo evento que ocorrerá.
 
 
 <br><br>

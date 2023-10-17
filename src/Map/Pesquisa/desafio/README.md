@@ -1,19 +1,18 @@
 # Curso Conhecendo Collections Java
 
 
-## 🛒 Desafio -> Operações Básicas com Set
+## 🛒 Desafio -> Pesquisa em Map
 
-⭐ Conjunto de Palavras Únicas: 
+⭐ Contagem de Palavras:
 
-➡️ Crie uma classe chamada "ConjuntoPalavrasUnicas" que possui um conjunto de palavras únicas como atributo.<br>
+➡️ Crie uma classe chamada "ContagemPalavras" que utilize um Map para armazenar as palavras e a quantidade de vezes que cada palavra aparece em um texto.<br>
 ➡️ Implemente os seguintes métodos:
 
 
-* `adicionarPalavra(String palavra)`: Adiciona uma palavra ao conjunto.
-* `removerPalavra(String palavra)`: Remove uma palavra do conjunto.
-* `verificarPalavra(String palavra)`: Verifica se uma palavra está presente no conjunto.
-* `exibirPalavrasUnicas()`: Exibe todas as palavras únicas do conjunto.
-
+* `adicionarPalavra(String palavra, Integer contagem)`: Adiciona uma palavra à contagem.
+* `removerPalavra(String palavra)`: Remove uma palavra da contagem, se estiver presente.
+* `exibirContagemPalavras()`: Exibe todas as palavras e suas respectivas contagens.
+* `encontrarPalavraMaisFrequente()`: Encontra a palavra mais frequente no texto e retorna a palavra e sua contagem.
 
 <br><br>
 
