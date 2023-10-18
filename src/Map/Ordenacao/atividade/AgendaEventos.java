@@ -6,7 +6,7 @@ import java.util.*;
 
 public class AgendaEventos {
 
-    //Atributos (um Map de data e da classe Evento
+    //Atributos (um Map de data e da classe Evento)
     private Map<LocalDate, Evento> eventosMap;
 
     //Contrutor

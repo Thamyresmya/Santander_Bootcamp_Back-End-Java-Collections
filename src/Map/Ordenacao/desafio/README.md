@@ -7,8 +7,8 @@
 
 ➡️ Crie uma classe chamada "LivrariaOnline" que representa uma livraria online. <br>
 ➡️ Essa classe utiliza um Map para armazenar os livros disponíveis na livraria, utilizando o link da obra na Amazon Marketplace como chave e um objeto da classe "Livro" como valor. <br>
-➡️ A classe "Livro" possui atributos como título, autor e preço. Através da classe "LivrariaOnline". <br>
-➡️ Implemente os seguintes métodos:
+➡️ A classe "Livro" possui atributos como título, autor e preço. <br>
+➡️ Através da classe "LivrariaOnline". Implemente os seguintes métodos:
 
 * `adicionarLivro(String link, String titulo, String autor, private double preco)`: Adiciona um livro à livraria, utilizando o ISBN como chave no Map.
 * `removerLivro(String titulo)`: Remove um livro da livraria, dado o titulo do livro.
