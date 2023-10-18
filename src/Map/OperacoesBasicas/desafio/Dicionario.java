@@ -6,7 +6,7 @@ import java.util.Map;
 public class Dicionario {
 
     //Atributos
-    public Map<String, String> dicionarioPalavrasMap;
+    private Map<String, String> dicionarioPalavrasMap;
 
     //Construtor
     public Dicionario() {
@@ -26,13 +26,17 @@ public class Dicionario {
             dicionarioPalavrasMap.remove(palavra);
             System.out.println("Palavra: " + palavra + ". Removida do dicionario com sucesso!");
         } else {
-            System.out.println("Dicionario está vazio!");
+            System.out.println("O dicionário está vazio!");
         }
     }
 
     //Exibe todas as palavras e suas definições do dicionário, mostrando cada palavra seguida de sua respectiva definição.
     public void exibirPalavras() {
-        System.out.println(dicionarioPalavrasMap);
+        if(!dicionarioPalavrasMap.isEmpty()) {
+            System.out.println(dicionarioPalavrasMap);
+        } else {
+            System.out.println("O dicionário está vazio!");
+        }
     }
 
     //Pesquisa uma palavra no dicionário e retorna sua definição correspondente.
@@ -42,7 +46,7 @@ public class Dicionario {
             palavraPesquisada = dicionarioPalavrasMap.get(palavra);
             System.out.println("A definição da palavra " + palavra + " é: " + palavraPesquisada);
         } else {
-            System.out.println("Dicionario está vazia!");
+            System.out.println("O dicionário está vazio!");
         }
         return palavraPesquisada;
     }
