@@ -70,6 +70,7 @@ public class LivrariaOnline {
                 livrosPorAutor.put(entry.getKey(), livro);
             }
         }
+        System.out.println(livrosPorAutor);
         return livrosPorAutor;
     }
 
@@ -140,15 +141,17 @@ public class LivrariaOnline {
 
         // Pesquisa livros por autor
         String autorPesquisa = "Josh Malerman";
+        System.out.println("\nLivros por autor: " + autorPesquisa);
         livrariaOnline.pesquisarLivrosPorAutor(autorPesquisa);
 
         // Obtém e exibe o livro mais caro
-        System.out.println("Livro mais caro: " + livrariaOnline.obterLivroMaisCaro());
+        System.out.println("\nLivro mais caro: " + livrariaOnline.obterLivroMaisCaro());
 
         // Obtém e exibe o livro mais barato
-        System.out.println("Livro mais barato: " + livrariaOnline.obterLivroMaisBarato());
+        System.out.println("\nLivro mais barato: " + livrariaOnline.obterLivroMaisBarato());
 
         // Remover um livro pelo título
+        System.out.println("\nRemover um livro pelo título");
         livrariaOnline.removerLivro("1984");
         System.out.println(livrariaOnline.livrariaMap);
 
