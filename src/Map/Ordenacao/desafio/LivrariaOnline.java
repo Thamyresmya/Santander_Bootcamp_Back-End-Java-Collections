@@ -42,7 +42,6 @@ public class LivrariaOnline {
         for (Map.Entry<String, Livro> entry : livrosParaOrdenarPorPreco) {
             livrosOrdenadosPorPreco.put(entry.getKey(), entry.getValue());
         }
-
         return livrosOrdenadosPorPreco;
     }
 
